@@ -90,6 +90,6 @@ X_train, y_train, X_test, y_test = ember.read_vectorized_features("/data/ember20
 metadata_dataframe = ember.read_metadata("/data/ember2018/")
 ```
 
-Once the data is downloaded and the ember module is installed, this simple code should reproduce the benchmark ember model:
+Once the data is downloaded and the ember module is installed, The code is now able to run. 
 
 
