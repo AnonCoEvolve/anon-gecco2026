@@ -1,0 +1,23 @@
+
+    [NEAT]
+    # The following are the parameters to configure the NEAT algorithm.
+    fitness_criterion = max
+    fitness_threshold = 0.95
+    pop_size = 100
+    reset_on_extinction = False
+
+    [DefaultGenome]
+    # These are the settings for the neural network genome.
+    num_inputs = 79  # Update this to the number of features in the dataset
+    num_outputs = 2  # Output for binary classification (malware or benign)
+    num_hidden = 0
+    num_connections = 0
+    node_add_prob = 0.2
+    conn_add_prob = 0.5
+    node_del_prob = 0.2
+    conn_del_prob = 0.5
+    weight_mutate_prob = 0.8
+    bias_mutate_prob = 0.2
+    enable_mutate_prob = 0.2
+    activate_mutate_prob = 0.1
+    
